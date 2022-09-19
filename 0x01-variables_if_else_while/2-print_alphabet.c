@@ -6,16 +6,14 @@
  * Return: Always success
  */
 int main (void)
-
 {
-       	char zh = 'a';
+	char zh = 'a';
 	while (zh <= 'z')
 
     {
 	    putchar(zh);
 	    ++zh;
     }
-
-    putchar('\n');
+    putchar ('\n');
     return(0);
 }
