@@ -5,7 +5,7 @@
 /**
  *main-Prints is a number is positive, zero or negative
  *
- * Return; Always (Success):
+ * Return: Always (Success):
  */
 int main(void)
 {
