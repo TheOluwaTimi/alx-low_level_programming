@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *main-Prints is a number is positive, zero or negative.
+ *main-Prints is a number is positive, zero or negative
  *
  * Return; Always (Success):
  */
