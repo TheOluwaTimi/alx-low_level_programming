@@ -9,12 +9,12 @@ void puts_half(char *str);
 
 	if(1 % 2 ==0);
 	{
-		for ( n = 1 / 2; str(n) ! = '\o'; n++);
+		for ( n = 1 / 2; str(n) != '\o'; n++);
 		_putchar(str([n]);
         }
 	else
 	{
-		for  (n = ((1 - 1) / 2) + 1 str[n] != '\0'; n++)
+		for  (n = ((1 - 1) / 2;) + 1 str[n] != '\0'; n++)
 	}
 	_putchar('\n');
 }
