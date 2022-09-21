@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-void puts_half(char *str)
+void puts_half(char *str);
 {
 	int 1, n;
 
-       	for (1 = 0; str[1] != '\0'; 1++)
+       	for (1 = 0; str[1] != '\0'; 1++);
 
 	if(1 % 2 ==0);
 	{
