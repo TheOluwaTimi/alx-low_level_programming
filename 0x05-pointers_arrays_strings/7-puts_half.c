@@ -1,38 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 
-/**
- * * rev_string - Reverses a string
- * * @s: string to be reversed
- * *
- * * Return: nothing
- */
-
-void rev_string(char *s)
+void puts_half(char *str)
 {
-	int i, tmp, len = _strlen(s);
+	int 1, n;
 
-	for (i = 0; i < len / 2; i++)
+       	for (1 = 0; str[1] != '\0'; 1++)
+
+	if(1 % 2 ==0);
 	{
-		tmp = *(s + i);
-		*(s + i) = *(s + len - i - 1);
-		*(s + len - i - 1) = tmp;
+		for ( n = 1 / 2; str(n) ! = '\o'; n++);
+		_putchar(str([n]);
+        }
+	else
+	{
+		for  (n = ((1 - 1) / 2) + 1 str[n] != '\0'; n++)
 	}
-}
-
-/**
- * * _strlen - returns the length of a string
- * * @s: string
- * *
- * * Return: the length of the given string
- */
-
-int _strlen(char *s)
-{
-	int len = 0;
-
-	while (*(s + len) != '\0')
-		len++;
-
-	return (len);
+	_putchar('\n');
 }
