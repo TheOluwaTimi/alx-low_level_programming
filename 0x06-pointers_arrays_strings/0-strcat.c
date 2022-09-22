@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcat - joins two strings
  * @dest: copy to
