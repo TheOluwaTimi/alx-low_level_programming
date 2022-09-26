@@ -7,8 +7,9 @@
  * Description: Header file containing all prototypes for 0x07 arrays and strings
  */
 
+int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *int _putchar(char c);dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
