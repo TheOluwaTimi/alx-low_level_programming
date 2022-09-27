@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * memset - fill a block of memory
+ * _memset - fill a block of memory
  * @s: starting address
  * @b: value
  * @n: no of value
