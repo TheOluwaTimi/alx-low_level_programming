@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * *_memset - file memory with constant byte
- * @s: source string
- * @b: the content bytre for filing
+ * _memcpy - file memory with constant byte
+ * @dest: source string
+ * @src: string for filing
  * @n: lenght of buffer
- * return new string
+ * return: new string
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
 {
@@ -12,8 +12,8 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 
 	while (i < n)
 	{
-		*(s + 1) = b;
+		*(dest + i) = *(src + 1);
 		i++;
 	}
-	return (s);
+	return (dest);
 }
